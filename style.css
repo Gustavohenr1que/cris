@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./campo3.jpg);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#cris{
+    border-radius: 600px;
+}
+
+input{
+    border-radius: 25px;
+    width: 250px ;
+    height: 25px; ;
+}
+
+.container{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#polvo{
+    margin: 20px;
+}
+
+#ou{
+    margin: 0 3%;
+}
+
+#pergunte{
+    font-size: 1.3rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: darkred;
+    color: aliceblue;
+    border-radius: 25px;
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    transition: all 250ms ease 0s;
+    position: relative;
+    height: 3rem;
+    font-size: 1.125rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+
+.caixa1:focus{
+    outline: rgb(152, 4, 34) auto
+    1px;
+}
+
+.superior{
+    display: flex;
+    align-items: center;
+}
+
+.caixa1{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transform: all 0.2s ease 0s;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 2.5rem;
+    border-radius: 0.25px;
+    border-width: 1px;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
